@@ -1,0 +1,70 @@
+.movie-card {
+    background-color: #f8f9fa; /* Set background color */
+    border: 1px solid #ced4da; /* Add border */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow */
+    padding: 12px; /* Add padding */
+    margin-bottom: 20px; /* Add margin bottom for spacing */
+}
+
+/* Hover effect for movie cards */
+.movie-card:hover {
+    transform: translateY(-3px); /* Move card up slightly on hover */
+    transition: transform 0.3s ease; /* Add smooth transition */
+}
+.movie-card:focus {
+    border-color: #90fa17; /* Border color on hover */
+}
+
+.movie-title {
+    font-weight: bold; /* Make the movie titles bold */
+    color: #dc3545; /* Different color for the movie titles */
+}
+.card-body {
+    background-color: rgb(151, 173, 164); /* Set background color for card body */
+    color: white; /* Set text color for card body */
+  }
+  
+  .card-title {
+    font-weight: bold; /* Make the card title bold */
+    color: yellow; /* Set text color for card title */
+  }
+  .radio-container {
+    display: flex;
+    justify-content: center;
+}
+
+.radio-container .form-check {
+    margin-right: 20px; /* Adjust as needed */
+}
+.card {
+    border: 7px solid #fac519; /* Add border */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.1); /* Add box shadow */
+}
+
+/* Custom CSS styles for search box */
+#search-input {
+    border: 7px solid #fac519; /* Add border */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.1); /* Add box shadow */
+    padding: 8px 12px; /* Add padding */
+}
+
+/* Custom CSS styles for search button */
+#search-btn {
+   
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow */
+    padding: 8px 16px; /* Add padding */
+    background-color: #007bff; /* Set background color */
+    color: #fff; /* Set text color */
+    cursor: pointer; /* Add pointer cursor */
+    margin: 0 auto; /* Center horizontally */
+    text-align: center; /* Center text horizontally */
+}
+
+/* Hover effect for search button */
+#search-btn:focus {
+    background-color: #c2a818; /* Darker background color  */
+}

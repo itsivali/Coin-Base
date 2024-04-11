@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coinbase API</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-4 mb-4">Coinbase API</h1>
+
+        <!-- Radio buttons for selecting data type -->
+        <div class="form-group">
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="data-type" id="currencies" value="currencies" checked>
+                <label class="form-check-label" for="currencies">Currencies</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="data-type" id="exchange-rates" value="exchange-rates">
+                <label class="form-check-label" for="exchange-rates">Exchange Rates</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="data-type" id="buy-price-BTC-USD" value="buy-price-BTC-USD">
+                <label class="form-check-label" for="buy-price-BTC-USD">BTC-USD Buy Price</label>
+            </div>
+            <!-- Add radio button for selling price -->
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="data-type" id="sell-price-BTC-USD" value="sell-price-BTC-USD">
+                <label class="form-check-label" for="sell-price-BTC-USD">BTC-USD Sell Price</label>
+            </div>
+        </div>
+        <!-- Search input field and button -->
+        <div class="container text-center">
+            <input type="text" id="search-input" class="form-control" placeholder="Search..."><br>
+            <button id="search-btn" class="btn btn-primary">Search</button>
+        </div>
+        <br>
+
+        <div id="crypto-cards" class="row">
+            <!-- Data will be displayed here -->
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
